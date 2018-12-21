@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/alison/eclipse-workspace/microkernel_java/src/myplugin1/myPlugin1.java</file>
+            <file>file:/home/alison/eclipse-workspace/microkernel_java/src/myapp/PluginController.java</file>
+            <file>file:/home/alison/eclipse-workspace/microkernel_java/src/interfaces/IPlugin.java</file>
+            <file>file:/home/alison/eclipse-workspace/microkernel_java/src/interfaces/IUiController.java</file>
+            <file>file:/home/alison/eclipse-workspace/microkernel_java/src/myapp/MainWindow.java</file>
+            <file>file:/home/alison/eclipse-workspace/microkernel_java/src/interfaces/ICore.java</file>
+            <file>file:/home/alison/eclipse-workspace/microkernel_java/src/interfaces/IPluginController.java</file>
+            <file>file:/home/alison/eclipse-workspace/microkernel_java/src/myapp/UiController.java</file>
+            <file>file:/home/alison/eclipse-workspace/microkernel_java/src/myapp/Core.java</file>
+        </group>
+    </open-files>
+</project-private>
