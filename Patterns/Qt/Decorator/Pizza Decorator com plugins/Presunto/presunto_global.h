@@ -1,0 +1,12 @@
+#ifndef PRESUNTO_GLOBAL_H
+#define PRESUNTO_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(PRESUNTO_LIBRARY)
+#  define PRESUNTOSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define PRESUNTOSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // PRESUNTO_GLOBAL_H
