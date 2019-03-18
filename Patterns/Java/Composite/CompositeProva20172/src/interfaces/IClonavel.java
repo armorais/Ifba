@@ -11,6 +11,6 @@ package interfaces;
  */
 public interface IClonavel {
     
-    public Componente clone();
+    public Componente clonar();
     
 }

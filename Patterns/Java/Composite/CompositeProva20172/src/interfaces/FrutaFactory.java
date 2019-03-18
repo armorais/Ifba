@@ -6,18 +6,17 @@
 package interfaces;
 
 import java.util.HashMap;
-import negocio.frutas.Frutas;
 
 /**
  *
  * @author alison
  */
 public class FrutaFactory {
-    private HashMap<String, IClonavel> frutas = new HashMap<>();
+    private final HashMap<String, IClonavel> frutas = new HashMap<>();
     
     public Componente getFruta(String nome) {
         if(frutas.containsKey(nome))
-            return frutas.get(nome).clone();
+            return frutas.get(nome).clonar();
         return null;
     }
     

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/alison/Ifba/Redes/Jogo%20da%20velha/src/controladores/UiController.java</file>
+            <file>file:/home/alison/Ifba/Redes/Jogo%20da%20velha/src/controladores/Core.java</file>
+            <file>file:/home/alison/Ifba/Redes/Jogo%20da%20velha/src/interfaces/ICore.java</file>
+            <file>file:/home/alison/Ifba/Redes/Jogo%20da%20velha/src/jogo/TicTacToe.java</file>
+            <file>file:/home/alison/Ifba/Redes/Jogo%20da%20velha/src/jogo/Lobby.java</file>
+            <file>file:/home/alison/Ifba/Redes/Jogo%20da%20velha/src/controladores/NetworkController.java</file>
+            <file>file:/home/alison/Ifba/Redes/Jogo%20da%20velha/src/interfaces/IGameController.java</file>
+            <file>file:/home/alison/Ifba/Redes/Jogo%20da%20velha/src/jogo/main.java</file>
+            <file>file:/home/alison/Ifba/Redes/Jogo%20da%20velha/src/interfaces/INetworkController.java</file>
+            <file>file:/home/alison/Ifba/Redes/Jogo%20da%20velha/src/controladores/GameController.java</file>
+        </group>
+    </open-files>
+</project-private>

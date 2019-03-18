@@ -24,7 +24,7 @@ public class Laranja extends Componente implements IClonavel {
     }
 
     @Override
-    public Componente clone() {
+    public Componente clonar() {
         return (Componente)new Laranja();
     }
        

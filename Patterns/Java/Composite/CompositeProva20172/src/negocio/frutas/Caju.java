@@ -24,7 +24,7 @@ public class Caju extends Componente implements IClonavel {
     } 
     
     @Override
-    public Componente clone() {
+    public Componente clonar() {
         return (Componente)new Caju();
     }
    

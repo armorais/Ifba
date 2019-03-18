@@ -12,7 +12,7 @@ import interfaces.IClonavel;
  *
  * @author alison
  */
-public class Maca extends Componente implements IClonavel  {
+public class Maca extends Componente implements IClonavel {
 
     public Maca() {
         super("Maçã");
@@ -24,7 +24,7 @@ public class Maca extends Componente implements IClonavel  {
     }
 
     @Override
-    public Componente clone() {
+    public Componente clonar() {
         return (Componente)new Maca();
     }
     

@@ -26,6 +26,7 @@ public abstract class Componente {
         this.descricao = descricao;
     }
     
+    @Override
     public String toString() {
         return descricao;
     }
