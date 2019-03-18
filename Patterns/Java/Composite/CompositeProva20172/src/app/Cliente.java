@@ -56,6 +56,12 @@ public class Cliente {
         
         pequenas.realizarLimpeza();
         
+        System.out.println("-----");
+        
+        pequenas.clear();
+        
+        frutas.realizarLimpeza();
+        
     }
     
 }

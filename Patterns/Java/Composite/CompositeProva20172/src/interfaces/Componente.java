@@ -22,6 +22,10 @@ public abstract class Componente {
         System.out.println("Não é possivel inserir em uma folha!");
     }
     
+    public void clear() {
+        System.out.println("Não é possivel remover itens de uma folha!");
+    }
+    
     public Componente(String descricao) {
         this.descricao = descricao;
     }

@@ -20,14 +20,22 @@ public class Frutas extends Componente {
     @Override
     public void realizarLimpeza(){
         System.out.println("Percorrendo: " + this.toString());
-        for(Componente aux : componentes ){
+        for(Componente aux : componentes )
             aux.realizarLimpeza();
-        }
+        
     }
     
     @Override
     public void add(Componente componente){
         componentes.add(componente);
-    }    
+    } 
+    
+    @Override
+    public void clear(){
+        for(Componente aux : componentes )
+            aux.clear();
+        
+        componentes.clear();
+    }
     
 }
