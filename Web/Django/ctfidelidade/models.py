@@ -3,19 +3,9 @@ from __future__ import unicode_literals
 
 from django.db import models
 from django.utils import timezone
+from clientes_ms.models import Clientes
 
 # Create your models here.
-
-class Clientes(models.Model):
-	"""docstring for Clientes"""
-	class Meta:
-		verbose_name_plural = "clientes"
-	
-	cpf = models.CharField(max_length=15, )
-	nome = models.CharField(max_length=200)
-
-	def __str__(self):
-		return self.nome
 
 class Servicos(models.Model):
 	"""docstring for Clientes"""
@@ -29,17 +19,6 @@ class Servicos(models.Model):
 
 	def __str__(self):
 		return self.descricao
-
-class Empresas(models.Model):
-	"""docstring for Empresas"""
-	class Meta:
-		verbose_name_plural = "empresas"
-	
-	nome = models.CharField(max_length=200)
-	servicos = models.ManyToManyField(Servicos)
-	
-	def __str__(self):
-		return self.nome
 
 class Registros(models.Model):
 	"""docstring for Registros"""
