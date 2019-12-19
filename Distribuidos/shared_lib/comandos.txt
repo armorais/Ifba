@@ -1,0 +1,7 @@
+g++ -fPIC -c -Wall libcalc.cpp
+
+g++ -shared libcalc.o -o libcalc.so
+
+export LD_LIBRARY_PATH=<caminho_da_lib>:$LD_LIBRARY_PATH
+
+g++ -L<caminho_da_lib> -Wall -o calculadora run.cpp -lcalc
